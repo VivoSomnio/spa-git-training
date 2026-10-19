@@ -1,0 +1,17 @@
+# Build outputs. Every build makes them again from the source, so they
+# never go in the history.
+*.exe
+*.o
+*.obj
+bin/
+obj/
+dist/
+node_modules/
+.venv/
+__pycache__/
+
+# Programs built on Linux or macOS have no .exe ending, so each one is
+# named here. The / at the start means the folder of this file.
+/c/server-report
+/cpp/server-report
+/go/server-report
