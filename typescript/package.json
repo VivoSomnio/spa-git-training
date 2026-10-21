@@ -1,0 +1,13 @@
+{
+  "name": "server-report-typescript",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "build": "tsc --noEmitOnError"
+  },
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "24.13.5",
+    "typescript": "7.0.2"
+  }
+}
