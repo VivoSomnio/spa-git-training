@@ -1,3 +1,6 @@
 web-01|production|443
 web-02|staging|8443
 db-01|production|3306
+app-01|production|8080
+app-02|staging|8080
+queue-01|production|5672
