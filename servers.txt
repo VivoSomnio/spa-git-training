@@ -4,3 +4,6 @@ db-01|production|3306
 app-01|production|8080
 app-02|staging|8080
 queue-01|production|5672
+metrics-01|production|9090
+alerts-01|production|9093
+logs-01|production|3100
