@@ -14,7 +14,7 @@ async function main(): Promise<void> {
     // Remember, the flags arrive as a list after the program name;
     // process.argv.slice(2) keeps only the words after it.
     const flags: string[] = process.argv.slice(2);
-    if (flags.length < 1) {
+    if (flags.length !== 1) {
         console.error("Error: use server-report <servers file>");
         process.exitCode = 1;
         return;
