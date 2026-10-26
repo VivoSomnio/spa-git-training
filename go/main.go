@@ -20,7 +20,7 @@ import (
 func main() {
     // Remember, the flags arrive as a list after the program name:
     // os.Args[0] is the program, so the one file path makes 2 entries.
-    if len(os.Args) < 2 {
+    if len(os.Args) != 2 {
         fmt.Fprintln(os.Stderr, "Error: use server-report <servers file>")
         os.Exit(1)
     }
