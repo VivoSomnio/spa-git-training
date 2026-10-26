@@ -11,7 +11,7 @@ import sys
 # Remember, main returns the exit code: 0 for success, 1 for failure.
 def main() -> int:
     # Remember, the flags arrive as a list after the program name.
-    if len(sys.argv) < 2:
+    if len(sys.argv) != 2:
         print("Error: use server-report <servers file>", file=sys.stderr)
         return 1
     path = sys.argv[1]
