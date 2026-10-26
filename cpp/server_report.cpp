@@ -32,7 +32,7 @@ std::vector<std::string> splitText(const std::string &sourceText,
 int main(int argc, char *argv[]) {
     // Remember, the flags arrive as a list after the program name, so the
     // one file path makes argc 2.
-    if (argc < 2) {
+    if (argc != 2) {
         std::cerr << "Error: use server-report <servers file>\n";
         return 1;
     }
