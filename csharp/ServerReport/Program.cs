@@ -16,7 +16,7 @@ internal static class Program
     {
         // Remember, the flags arrive as a list after the program name; in
         // C# args holds only the words after it.
-        if (args.Length < 1)
+        if (args.Length != 1)
         {
             Console.Error.WriteLine("Error: use server-report <servers file>");
             return 1;
