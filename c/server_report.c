@@ -38,7 +38,7 @@ int split_text(const char *source_text, char separator, char parts[][256],
 int main(int argc, char *argv[]) {
     // Remember, the flags arrive as a list after the program name, so the
     // one file path makes argc 2.
-    if (argc < 2) {
+    if (argc != 2) {
         fprintf(stderr, "Error: use server-report <servers file>\n");
         return 1;
     }
