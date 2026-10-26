@@ -15,3 +15,7 @@ __pycache__/
 /c/server-report
 /cpp/server-report
 /go/server-report
+
+# Secrets. Keys and passwords go in .env, which never goes in the
+# history.
+.env
